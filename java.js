@@ -5,13 +5,6 @@ a = 5;
 var b;
 b = 10;
 
-//Create a variable add and assign it the sum of a and b.
-//Create a variable sub and assign it result of b subtracted from a.
-//Create a variable mul and assign it the product of a and b.
-//Create a variable div and assign it the result of of a divided by b.
-//Create a variable inc and assign it the preincremented value of a.
-//Create a variable dec and assign it the predecremented value of b.
-
 var add;
 add = a + b;
 console.log(add);
@@ -35,10 +28,6 @@ console.log(inc);
 var dec;
 dec = --b;
 console.log(dec);
-
-
-
-
 
 //Javascript String Assign "Learning Javascript with AlmaBetter" to variable test and perform following
 var test;
