@@ -1,4 +1,4 @@
-# javascript_basics
+# Javascript Operators and Strings
 
 
 In this file, I have used javascript operators to execute different tasks through variables. 
