@@ -1,0 +1,13 @@
+//check if input variable is a number by using isNaN()
+
+function isValidnumber(s){
+if (isNaN(s)) {
+console.log(s + " is not a number");} else{
+console.log(s + " is a number");}
+}
+
+var first = '50';
+var second = '40F';
+
+isValidnumber(first);
+isValidnumber(second);
