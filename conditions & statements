@@ -1,0 +1,22 @@
+//write a JS programme that accepts 2 integers and displays the larger
+
+var num1 = 5
+var num2 = 10
+
+if (num1 > num2) {
+console.log("The larger of 5 and 10 is " + num1 + ".");} else{
+console.log("The larger of 5 and 10 is " + num2 + ".");}
+
+//check if input number is even/odd by using "%" operator 
+
+var num3 = 17.5
+var num4 = 42
+
+function checkOddEven(x){
+if (x % 2 ==0){
+console.log(x + "is even");} else{
+console.log(x + "is odd");}
+}
+
+checkOddEven(num3);
+checkOddEven(num4);
