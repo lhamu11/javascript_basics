@@ -1,0 +1,12 @@
+function callDB(printCB){
+         setTimeout (()=>{
+         console.log("DB call is done");
+         printCB(50);}, 4000);}
+
+const print = function(data){
+              console.log(data);}
+
+const result = callDB(print);
+
+//DB call is done
+//50
