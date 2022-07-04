@@ -22,3 +22,13 @@ else {console.log(`Number ${num3} is odd`);}
 if (num4%2 == 0) {
 console.log(`Number ${num4} is even`);}
 else {console.log(`Number ${num4} is odd`);}
+
+//use the in-built function isNaN()
+var var1 = 50; 
+
+if (isNaN(var1)) {
+    console.log(` ${var1} is not a number`);
+}
+else {
+        console.log(` ${var1} is a number`);
+}
