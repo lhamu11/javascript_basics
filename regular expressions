@@ -1,0 +1,36 @@
+//test whether the first character of a string is uppercase or not using regular expressions.
+
+function upperCaseTest(str)
+{
+   regexp = /^[A-Z]/;
+   if (regexp.test(str))
+    {
+      console.log(‘true’);
+    } 
+    else
+    {
+      console.log("false");
+    }
+}
+
+//count the number of vowels in a given string.
+function vowel_count(str) {
+
+  console.log(str.match(/[aeiou]/gi).length);
+
+}
+
+//is it a hexcolor?
+function is_hexcolor(str)
+{
+ regexp = /^#?([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$/;
+  
+        if (regexp.test(str))
+          {
+            console.log(true);
+          }
+        else
+          {
+            console.log(false);
+          }
+}
