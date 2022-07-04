@@ -1,0 +1,7 @@
+//import the lodash module (using commonjs syntax) and iterate through the given array and prints each letter.
+
+ const _ = require('lodash')
+
+_.forEach(letters, letter => {
+  console.log(letter);
+});
