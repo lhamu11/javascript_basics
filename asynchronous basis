@@ -1,0 +1,43 @@
+//increment the count by 2 every 2 seconds and then stop at 10
+
+let count = 0;
+let timer = setInterval(function() {
+	if(count === 10){
+		clearInterval(timer)
+} else {
+count = count + 2
+console.log(count)
+}
+}, 2000)
+
+//Write a Javascript program that resolves the fastest promise and prints out its value
+
+const promise1 = new Promise(function(resolve, reject) {
+  setTimeout(resolve, 500, 'one');
+});
+
+const promise2 = new Promise(function(resolve, reject) {
+  setTimeout(resolve, 100, 'two');
+});
+
+Promise.race([promise1, promise2]).then(function(value){
+  console.log(value);
+});
+
+//Write a Javascript program that resolves a promise if a number is more than 42 else rejects it.
+const n1 = Promise.resolve(25)
+const n2 = Promise.resolve(69)
+
+function test(arr){
+	arr.forEach(function(element){
+		element.then(function(value){
+			if(value > 42){ 
+			    console.log(`This is resolved`)
+			}else {
+			   console.log("This is rejected");
+			}
+})
+})
+}
+
+test([n1, n2])
