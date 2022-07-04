@@ -1,0 +1,23 @@
+//pure function multiplying two numbers
+
+function multiply(a,b){
+	return a*b;
+}
+
+//Using the high order filter function,for a list of even numbers
+
+function even(n){
+	return n%2 == 0;
+}
+
+const listOfNumbers = [0,1,2,3,4,5,6,7,8,9,10];
+
+console.log(listOfNumbers.filter(even));
+
+//function that adds a number x with 5 and divides it with 2
+const add = (x) => x+5;
+const divide = (x) => x/2;
+
+const composition = (x) => divide(add(x));
+
+console.log(composition(5));
